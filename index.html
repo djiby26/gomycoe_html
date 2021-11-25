@@ -4,25 +4,124 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Document</title>
+		<title>Djiby's Portfolio</title>
 	</head>
 	<body>
-		<nav class="navigation">
-			<!-- <div class="logo"><a href="#">Jeeby</a></div> -->
-			<ul>
-				<li><a href="./index.html" class="nav-link">Home</a></li>
-				<li><a href="./pages/about.html" class="nav-link">About</a></li>
-				<li><a href="./pages/work.html" class="nav-link">Work</a></li>
-				<li><a href="./pages/resume.html" class="nav-link">Resume</a></li>
-				<li><a href="./pages/contact.html" class="nav-link">Contact</a></li>
-			</ul>
-		</nav>
+		<header>
+			<nav id="navigation">
+				<ul>
+					<li><a href="#home" class="nav-link">Home</a></li>
+					<li><a href="#about" class="nav-link">About</a></li>
+					<li><a href="#work" class="nav-link">Work</a></li>
+					<li><a href="#resume" class="nav-link">Resume</a></li>
+					<li><a href="#contact" class="nav-link">Contact</a></li>
+				</ul>
+			</nav>
+		</header>
 		<main>
-			<section class="text">
+			<section>
 				<h1>Hello I'm Djiby</h1>
 				<h3>Javascript Developer</h3>
-				<a href="./pages/work.html" class="see-work">See my Work</a>
+				<a href="#work" class="see-work">See my Work</a>
 			</section>
+
+			<section id="about">
+				<h2>About</h2>
+
+				<p>
+					What can a “full-stack web developer” do, you ask? I can conjur a
+					website from nothing into existence, fully formed. I do not use
+					tricks, nor is this magic. I specialize in manipulating the very
+					fabric of the web, its raw materials of HTML, CSS, JavaScript, and
+					SVG. Linux servers serve me, domains are my domain, and certificates
+					are certain. Open-source technologies empower this process. I am a
+					custom WordPress theme and plugin development expert. I fully embraced
+					the Gutenberg editor and can create custom blocks from scratch for any
+					conceivable need. I have contributed in small ways to these and other
+					open-source efforts and intend to give back every chance I get. My art
+					& design background informs ideation to design through to
+					implementation. In 2010 I graduated from the Cleveland Institute of
+					Art with a focus on digital arts and a mantra to always consider my
+					audience. I will always advocate for the user of my interfaces;
+					accessibility is not optional. I can plan, design, build, launch, and
+					maintain a website myself—did I mention that I build mobile apps too?
+					I have worked on 10+ published cross-platform iOS and Android apps
+					with React Native and Titanium SDK, roughly half of which I built and
+					maintain solo. A full-stack developer knows no bounds. And when they
+					find one they cross it without hesitation, boldly going into the
+					unknown to return richer for it.
+				</p>
+			</section>
+			<section id="work">
+				<h2>Work</h2>
+				<p>
+					What is a Web Developer? Are you interested in building and
+					maintaining websites with the client and consumer in mind? You may
+					want to consider a career as a web developer! Web developers are
+					responsible for programming the code that 'tells' a website how to
+					function. They build websites that are 'user friendly', which means
+					they are easy to navigate for those using them. They also build
+					functions within a website — for example, a form to capture an e-mail
+					or to provide a newsletter, a paywall to capture payment details, or a
+					message to thank a customer for their business.
+				</p>
+				<iframe
+					width="560"
+					height="315"
+					src="https://www.youtube.com/embed/4P6H64_gHCk"
+					title="YouTube video player"
+					frameborder="0"
+					allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+					allowfullscreen
+				></iframe>
+			</section>
+			<section id="resume">
+				<h2>Resume</h2>
+				<p>
+					I use HTML & CSS (usually SASS) every day, and I try to keep up with
+					the latest features while maintaining graceful degradation. I use
+					JavaScript fairly often, usually with jQuery. I also run Node.js-based
+					workflow automation via Gulp or Grunt for web projects, and I’ve
+					written other Node scripts to automate mundane tasks. My main
+					server-side language is PHP, quite often paired with MySQL. I usually
+					use WordPress for client sites, depending on requirements. I
+					specialize in custom themes, and have also built custom plugins for
+					unique functionality. I’ve developed several iOS and Android apps,
+					both using native code and a JavaScript-based framework called
+					Titanium SDK. I learned ActionScript 3.0 when it first came out, when
+					Flash was still ubiquitous and mobile devices were scarce. I’ve also
+					dabbled with Haxe during Ludum Dare challenges. I use Git for all of
+					my programming work. Check out my GitHub page for random projects and
+					contributions to other open source projects. I primarily use GitHub’s
+					Atom text editor for coding. I maintain my own Linux server at home
+					(Ubuntu) that acts as a staging site for project websites. DESIGN I
+					have professional experience with Adobe Creative Suite up to the
+					latest versions, especially XD, Photoshop, Illustrator, InDesign,
+					AfterEffects, and the ExtendScript Toolkit. My web design process
+					usually involves wireframing, a few rough sketches, and then a
+					prototype that, over several iterations, becomes the final design.
+					EDUCATION CLEVELAND INSTITUTE OF ART BFA IN DIGITAL ARTS Game Design
+					emphasis 2010 Student Commencement Speaker 2006-2010
+				</p>
+			</section>
+			<section id="contact">
+				<h2>Contact</h2>
+				<form>
+					<label for="name">Your name</label>
+					<input type="text" name="your-name" id="name" />
+
+					<label for="mail">Email</label>
+					<input type="email" name="mail" id="mail" />
+
+					<label for="message">Type your message</label>
+					<textarea name="message" id="message" cols="30" rows="10"></textarea>
+
+					<input type="submit" value="Submit" />
+				</form>
+			</section>
+			<footer>
+				<a href="#navigation">Remonter</a>
+			</footer>
 		</main>
 	</body>
 </html>
